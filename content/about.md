@@ -3,7 +3,7 @@ title: "About"
 draft: false
 ---
 
-## RpChat
+## CoopCursors
 
 This theme has been happily vandalized by Alexis Rosovsky.
 

@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "RpChat",
-    "label": "AI augmented chat app",
-    "image": "https://storage.googleapis.com/rpchat-releases/logo.png",
+    "name": "CoopCursors",
+    "label": "Share cursor position on screen",
+    "image": "https://storage.googleapis.com/coopcursors-releases/logo.png",
     "email": "",
     "phone": "",
     "summary": "App is in (very) early development",
@@ -13,13 +13,13 @@
     "profiles": [
       {
         "network": "GitHub",
-        "username": "releases-rpchat",
-        "url": "https://github.com/arosov/releases-rpchat"
+        "username": "coopcursors",
+        "url": "https://github.com/arosov/coopcursors"
       },
       {
         "network": "GitHub",
-        "username": "rpchat",
-        "url": "https://github.com/arosov/rpchat"
+        "username": "coopcursors-releases",
+        "url": "https://github.com/arosov/coopcursors-releases"
       }
     ]
   },

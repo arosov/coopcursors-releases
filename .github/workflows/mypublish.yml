@@ -1,4 +1,4 @@
-name: Deploy releases.rpchat.devcraft.ovh
+name: Deploy releases.coopcursors.devcraft.ovh
 
 permissions:
   contents: write
@@ -44,7 +44,7 @@ jobs:
           VERSION: ${{ github.event.client_payload.version }}
         run: |
           export AWS_ENDPOINT_URL=${{ secrets.S3_ENDPOINT }}
-          aws s3 cp s3://${{ secrets.S3_BUCKET_NAME }}/posts/$VERSION/release-$VERSION-rpchat.md  content/releases/
+          aws s3 cp s3://${{ secrets.S3_BUCKET_NAME }}/posts/$VERSION/release-$VERSION-coopcursors.md  content/releases/
 
       - name: Commit Changes
         id: commit_changes

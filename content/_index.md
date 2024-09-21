@@ -1,33 +1,17 @@
 +++
-title = "RpChat"
+title = "CoopCursors"
 date = "2024-06-15"
 +++
 
-## Simple Kotlin chat application
+## Overlay sharing mouse cursor
 
-> Currently the app is only an auth module and doesn't even have chat
-capabilities.
-> Early days are early.
+Display the mouse position of your friends on your own screen so that they
+can point things you missed.
 
-This project serves as a learning and training ground for developing a Kotlin
-Multiplatform (KMP) chat application augmented with AI capabilities.
-As an ongoing endeavor, the app is being crafted using Clean Architecture
-principles and targets multiple platforms including Web, Linux, Windows and Android.
+This app controls a transparent overlay which tracks your mouse cursor and
+displays the cursor of the other participants.
 
-Intel and Apple Silicon Mac are also supported but the .dmg is not signed.
+This is mostly intended as a tool to play Point and Click games over the Internet
+while these are usually inherently solo games.
 
-iOs support may happen later.
-
-* [Link to RpChat web/WASM](https://rpchat.devcraft.ovh)
-
-### Project Highlights
-
-* **Kotlin Multiplatform**: Leveraging KMP to build a versatile chat application.
-* **Clean Architecture**: Ensuring maintainable and scalable code.
-* **AI Augmentation**: Integrating advanced AI features to enhance user experience.
-* **Cross-Platform Support**: Targeting Web and Desktop environments seamlessly.
-* **Automated CI/CD**: Utilizing GitHub Actions for continuous integration and
-delivery. Each release triggers an update on this site with a dedicated release page.
-
-Stay tuned as we continue to develop and refine this innovative chat application,
-pushing the boundaries of Kotlin development across platforms.
+It could be used for collaborative purposes as well.
