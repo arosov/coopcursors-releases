@@ -1,7 +1,7 @@
 +++
 author = "Alexis Rosovsky"
 title = "0.0.2"
-date = "2024-09-25"
+date = "2024-09-26"
 description = "Version 0.0.2"
 tags = [
     "release",
@@ -28,5 +28,6 @@ Just in case, if there's a packaging issue for desktop builds.
 ## Changes from previous version 0.0.1 (commit titles)
 
 - Handle multiple displays and remote resolutions
+- wip reso
 - No update when there's no latest.json
 
