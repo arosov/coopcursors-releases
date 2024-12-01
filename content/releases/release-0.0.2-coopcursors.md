@@ -1,7 +1,7 @@
 +++
 author = "Alexis Rosovsky"
 title = "0.0.2"
-date = "2024-09-26"
+date = "2024-09-25"
 description = "Version 0.0.2"
 tags = [
     "release",
