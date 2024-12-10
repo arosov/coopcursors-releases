@@ -27,6 +27,9 @@ Just in case, if there's a packaging issue for desktop builds.
 
 ## Changes from previous version 0.0.5 (commit titles)
 
+- Material3 don't use deprecated function
+- Set update status message after download
+- Don't try to update with dirty tag
 - Revert "TOREVERT: testing: force update on latest manifest"
 - Gruvbox dark theme
 - Escape ShortcutEditor with ESCAPE
