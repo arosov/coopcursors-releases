@@ -1,7 +1,7 @@
 +++
 author = "Alexis Rosovsky"
 title = "0.0.6"
-date = "2024-12-05"
+date = "2024-12-10"
 description = "Version 0.0.6"
 tags = [
     "release",
@@ -27,5 +27,16 @@ Just in case, if there's a packaging issue for desktop builds.
 
 ## Changes from previous version 0.0.5 (commit titles)
 
-- test
+- Revert "TOREVERT: testing: force update on latest manifest"
+- Gruvbox dark theme
+- Escape ShortcutEditor with ESCAPE
+- Various fixes post-rework
+- Use HTTP status code for update manifest errors
+- Fix typo
+- Too early to use Koin
+- Cancel send/rcv coroutines WS Client
+- Rework/rewrite with DI
+- Remove some logs
+- TOREVERT: testing: force update on latest manifest
+- Introduce Log as default logger
 
