@@ -31,20 +31,12 @@ jobs:
           hugo-version: "0.127.0"
           extended: true
 
-      - name: Configure S3 credentials
-        run: |
-          aws configure set aws_access_key_id ${{ secrets.S3_ACCESS_KEY }}
-          aws configure set aws_secret_access_key ${{ secrets.S3_SECRET_KEY }}
-          aws configure set region ${{ secrets.S3_REGION }}
-          aws configure set default.s3.endpoint_url ${{ secrets.S3_ENDPOINT }}
-
       - name: Pull release post from S3 Storage
         id: upload-latest
         env:
           VERSION: ${{ github.event.client_payload.version }}
         run: |
-          export AWS_ENDPOINT_URL=${{ secrets.S3_ENDPOINT }}
-          aws s3 cp s3://${{ secrets.S3_BUCKET_NAME }}/posts/$VERSION/release-$VERSION-coopcursors.md  content/releases/
+          curl -o content/releases/release-$VERSION-coopcursors.md https://storage.googleapis.com/coopcursors/posts/$VERSION/release-$VERSION-coopcursors.md
 
       - name: Commit Changes
         id: commit_changes
