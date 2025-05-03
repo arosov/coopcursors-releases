@@ -13,10 +13,11 @@ categories = [
 
 New version 0.0.7 of CoopCursors is out !
 
+First version using WebRTC \o/
+
 ## Links
 
 * [Windows MSI installer](https://storage.googleapis.com/coopcursors/windows/msi/CoopCursors-0.0.7.msi)
-* [Linux JAR Server](https://storage.googleapis.com/coopcursors/linux/uberJar/CoopCursors-server-0.0.7-linux-amd64.jar)
 
 ## Jar links
 
